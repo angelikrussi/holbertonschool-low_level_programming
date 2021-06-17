@@ -7,6 +7,6 @@
  */
 int main(void)
 {
-  puts("holbertonschool-low_level_programming");
+  puts(""Programming is like building a multilingual puzzle");
   return (0);
 }
