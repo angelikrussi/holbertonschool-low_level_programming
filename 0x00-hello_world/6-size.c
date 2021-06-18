@@ -1,9 +1,10 @@
 #include <stdio.h>
 
 /**
- *  mainThis program prints the size of various
- *  types on the computer it is compiled and run on..
- *  Return: Always 0.
+ * main - this C program that prints size of
+ *        various types on compile and run computer.
+ *
+ * Return: Always 0.
  */
 int main(void)
 {
