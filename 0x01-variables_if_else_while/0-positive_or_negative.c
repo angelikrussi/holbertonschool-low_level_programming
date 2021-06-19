@@ -2,8 +2,8 @@
 #include <stdio.h>
 #include <time.h>
 /**
- * main - this  program  prints positive and negative numbers* 
- *        
+ * main - this  program  prints positive and negative numbers
+ *
  * Return: Always 0.
  */
 int main(void)
@@ -20,10 +20,9 @@ else if (n == 0)
 {
 printf("%d is zero\n", n);
 }
-else 
+else
 {
 printf("%d is negative\n", n);
 }
-	  
 return (0);
 }
