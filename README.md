@@ -1,1 +1,1 @@
-At the end of this project, you are expected to be able to C programming
+At the end of this project, you are expected to be able to C programming nested loops and how to use them
