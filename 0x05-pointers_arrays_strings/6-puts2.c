@@ -2,7 +2,7 @@
 
 /**
  * puts2 -prints every other character of a string.
- * @n: variable
+ * @str: variable
  * Return: Always 0.
  */
 void puts2(char *str)
@@ -10,7 +10,7 @@ void puts2(char *str)
 	int n;
 	int x;
 
-	for(n = 0; str[n] !=0 ; n++)
+	for (n = 0; str[n] != 0 ; n++)
 	{
 		if (n % 2 == 0)
 		{
