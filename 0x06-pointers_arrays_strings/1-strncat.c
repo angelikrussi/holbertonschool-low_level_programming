@@ -1,9 +1,9 @@
 #include "holberton.h"
-#include <stdio.h>
-
 /**
  * *_strncat - this function that concatenates two strings.
- *
+ *@dest: srt
+ *@src: srt
+ *@n: varable
  * Return: Always 0.
  */
 char *_strncat(char *dest, char *src, int n)
