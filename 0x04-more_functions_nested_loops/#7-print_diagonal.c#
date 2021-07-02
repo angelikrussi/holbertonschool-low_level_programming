@@ -1,0 +1,20 @@
+#include "holberton.h"
+/**
+ *print_line - draw a diagonal line.
+ *@n:line number
+ */
+void print_diagonal(int n)
+{
+	int m, a;
+
+	for (m = 1; m <= n; m++)
+	{  
+		for (a = 1; a <= m; a++)
+		{
+			if (m > 1 && a > 1)
+				_putchar(' ');
+		}
+		_putchar('\\');
+		_putchar('\n');
+	}
+}
