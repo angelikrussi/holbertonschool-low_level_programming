@@ -1,30 +1,19 @@
 #include "holberton.h"
-#include <stdio.h>
 
 /**
  * _memcpy - this function that copies memory area.
- * @dest  : the address of memory to print
- * @src : the size of the memory to print
- * @n
- * Return: Nothing.
+ * @dest: A pointer to where you want the function to copy the data.
+ * @src: A pointer to the buffer that you want to copy data from.
+ * @n: The number of bytes to copy.
+ * Return: dest.
  */
 char *_memcpy(char *dest, char *src, unsigned int n)
 {
 	unsigned int i;
 
-	i = 0;
-	while (i < size)
+	for (i = 0; i < n; i++)
 	{
-		if (i % 10)
-		{
-			printf(" ");
-		}
-		if (!(i % 10) && i)
-		{
-			printf("\n");
-		}
-		printf("0x%02x", buffer[i]);
-		i++;
+		dest[i] = src[i];
 	}
-	printf("\n");
+	return (dest);
 }
