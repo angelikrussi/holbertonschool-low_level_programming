@@ -12,11 +12,11 @@ unsigned int _strspn(char *s, char *accept)
 	for (a = 0; s[a] != '\0'; a++)
 	{
 		while (*accept)
-			{
-				if (s[a] == *accept)
-					return (a);
-				a++;
-			}
+		{
+			if (s[a] == 44)
+				return (a);
+			a++;
+		}
 		s++;
 	}
 	return (0);
