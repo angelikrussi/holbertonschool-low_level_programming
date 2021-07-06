@@ -1,4 +1,5 @@
 #include "holberton.h"
+
 /**
  * _strpbrk - this function that gets the length of a prefix substring.
  * @s: This is the main C string to be scanned.
