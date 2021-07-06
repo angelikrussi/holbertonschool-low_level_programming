@@ -13,7 +13,7 @@ unsigned int _strspn(char *s, char *accept)
 	{
 		while (*accept)
 		{
-			if (s[a] >=39 && s[a] <= 46)
+			if (s[a] >= 39 && s[a] <= 46)
 				return (a);
 			a++;
 		}
