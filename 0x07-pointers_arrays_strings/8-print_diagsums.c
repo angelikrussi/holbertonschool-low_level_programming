@@ -18,7 +18,7 @@ void print_diagsums(int *a, int size)
 	}
 	for (c = 0; c < size; c++)
 	{
-		q = (c * size) + (size - 1 - c);
+		p = (c * size) + (size - 1 - c);
 		r += *(a + p);
 	}
 	printf("%i, %i\n", q, r);
