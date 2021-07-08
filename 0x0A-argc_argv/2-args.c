@@ -8,6 +8,7 @@
 int main(int argc, char *argv[])
 {
 	int w = 0;
+	
 	while (w < argc)
 	{
 		printf("%s\n", argv[w]);
