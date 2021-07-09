@@ -8,23 +8,21 @@
  */
 int main(int argc, char *argv[])
 {
-	int a;
-	int add = 0;
+	int i, sum = 0;
 
 	if (argc < 1)
-	{
 		return (0);
-	}
-	for (a = 1; a < argc; a++)
+
+	for (i = 1; i < argc; i++)
 	{
-		if (!atoi(argv[a]))
+		if (!atoi(argv[i]))
 		{
 			printf("%s\n", "Error");
 			return (1);
 		}
-		add += atoi(argv[a]);
+		sum += atoi(argv[i]);
 	}
-	printf("%d\n", add);
+	printf("%d\n", sum);
 
 	return (0);
 }
