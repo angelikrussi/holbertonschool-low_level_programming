@@ -1,14 +1,14 @@
 #include "holberton.h"
+#include <stdlib.h>
 /**
- * create_array - prints buffer in hexa
+ * *create_array - prints buffer in hexa
  * @c: the address of memory to print
  * @size: the size of the memory to print
  *
- * Return: Nothing.
+ * Return: a.
  */
 char *create_array(unsigned int size, char c)
 {
-
 	unsigned int x;
 	char *y;
 
@@ -24,7 +24,7 @@ char *create_array(unsigned int size, char c)
 		return (NULL);
 	}
 
-	for (y = 0; y < size; y++)
+	for (x = 0; x < size; x++)
 	{
 		y[x] = c;
 
