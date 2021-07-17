@@ -1,4 +1,6 @@
-At the end of this project, you are expected to be able to explain to anyone.
-How to use the exit function.
-What are the functions calloc and realloc from the standard library and how
-to use them.
+Al final de este proyecto, se espera que pueda programar en C bucles anidados
+y cómo usarlos
+Al final de este proyecto, se espera que pueda explicarle a cualquiera.
+Cómo utilizar la función de salida.
+¿Cuáles son las funciones calloc y realloc de la biblioteca estándar y cómo
+para usarlos

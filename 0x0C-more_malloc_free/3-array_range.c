@@ -4,7 +4,7 @@
 #include <string.h>
 
 /**
- * simple_print_buffer - prints buffer in hexa
+ * array_range - this  function that creates an array of integers.
  * @min: xthe address of memory to print
  * @max: the size of the memory to print
  *
@@ -15,7 +15,7 @@ int *array_range(int min, int max)
 	int *p;
 	int a;
 
-	if(min > max)
+	if (min > max)
 		return (NULL);
 
 	p = malloc(sizeof(int) * (max - min + 1));

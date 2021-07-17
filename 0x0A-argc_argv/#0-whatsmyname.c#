@@ -1,0 +1,16 @@
+# incluye  " holberton.h "
+/**
+ * _memset - llena la memoria con un byte constante
+ * @argc:argument count
+ * @argv: argument vector
+ *
+ * Retorno: puntero al área de memoria s
+ */
+ int main (int argc, char * argv [])
+ {
+	 int main(int argc, char **argv)
+	 {
+		 while(argc--)
+			 printf("%s\n", *argv++);
+		 exit(EXIT_SUCCESS);
+	 }
