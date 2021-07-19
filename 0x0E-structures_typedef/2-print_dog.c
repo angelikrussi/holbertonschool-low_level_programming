@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include "dog.h"
-
+#include <stdlib.h>
 /**
  * print_dog - check the code for Holberton School students.
  * @d: variable.
