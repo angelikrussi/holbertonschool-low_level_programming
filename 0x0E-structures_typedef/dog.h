@@ -12,6 +12,7 @@ struct dog
 	char *name;
 	float age;
 	char *owner;
-}
+};
+/* Additional functions*/
 
 # endif /* DOG_H*/
