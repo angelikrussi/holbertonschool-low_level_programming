@@ -2,7 +2,7 @@
 #include "function_pointers.h"
 
 /**
- * print_name - prints a name.
+ * array_iterator-This function executes a function given as a parameter.
  * @action: function ponter
  * @size: size pointer.
  * @array:string.
