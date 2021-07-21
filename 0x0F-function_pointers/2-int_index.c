@@ -2,7 +2,7 @@
 #include "function_pointers.h"
 
 /**
- * print_name - This function searches for an integer.
+ * int_index - This function searches for an integer.
  * @cmp: searches for an integer.
  * @size: size pointer.
  * @array:string.
@@ -22,7 +22,7 @@ int int_index(int *array, int size, int (*cmp)(int))
 		while (i < size)
 		{
 			i++;
-			if (cmp (array[i]))
+			if (cmp(array[i]))
 				return (i);
 		}
 	}
