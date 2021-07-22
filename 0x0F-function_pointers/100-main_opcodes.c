@@ -2,13 +2,13 @@
 #include <stdlib.h>
 /**
  *main - print opcodes of a given machine.
- *@argc: number 
+ *@argc: number
  *@argv: vector.
  *Return: 0.
  */
 int main(int argc, char *argv[])
 {
-	int y, bytes;
+	int y, x;
 
 	if (argc != 2)
 	{
@@ -16,8 +16,8 @@ int main(int argc, char *argv[])
 		exit(1);
 	}
 
-	bytes = atoi(argv[1]);
-	if (bytes < 0)
+	x = atoi(argv[1]);
+	if (x < 0)
 	{
 		printf("Error\n");
 		exit(2);
