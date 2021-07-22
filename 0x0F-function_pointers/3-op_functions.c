@@ -1,12 +1,14 @@
 #include "3-calc.h"
 #include <stdio.h>
 #include <stdlib.h>
+
 /**
- * op_add - addition.
- *
- * @op: number
- * @f: number
+ * op_add - this is addition.
+ * @a: number
+ * @b: number
+ * Return: (a + b)
  */
+
 int op_add(int a, int b)
 {
 	return (a + b);
@@ -15,9 +17,11 @@ int op_add(int a, int b)
 /**
  * op_sub -  subtraction.
  *
- * @op: number
- * @f: number
+ * @a: number
+ * @b: number
+ * Return: (a - b)
  */
+
 int op_sub(int a, int b)
 {
 	return (a - b);
@@ -26,20 +30,24 @@ int op_sub(int a, int b)
 /**
  * op_mul - multiplication
  *
- * @op:number
- * @f:number
+ * @a:number
+ * @b:number
+ * Return: (a * b)
  */
+
 int op_mul(int a, int b)
 {
-   return (a * b);
+	return (a * b);
 }
 
 /**
  * op_div - division
  *
- * @op: number
- * @f: number
+ * @a: number
+ * @b: number
+ * Return: (a / b)
  */
+
 int op_div(int a, int b)
 {
 	if (b == 0)
@@ -55,6 +63,7 @@ int op_div(int a, int b)
  *
  * @a: number
  * @b: number
+ *Return: (a % b)
  */
 int op_mod(int a, int b)
 {
