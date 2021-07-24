@@ -1,3 +1,13 @@
+#include <stdarg.h>
+#include <stdio.h>
+#include "variadic_functions.h"
+
+/**
+ * print_all - this function prints anything.
+ * @format:number of input parameters
+ * Return: Always 0.
+ */
+
 void print_all(const char * const format, ...)
 {
 	int j;
