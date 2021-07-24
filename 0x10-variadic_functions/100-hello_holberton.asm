@@ -1,4 +1,4 @@
-	lobal main
+	global main
 
 	section .text
 main:
