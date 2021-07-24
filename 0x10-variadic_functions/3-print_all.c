@@ -33,7 +33,7 @@ void print_float(va_list n)
 
 /**
  * print_string - Prints strings.
- * @list: parameters number
+ * @n: parameters number
  */
 void print_string(va_list n)
 {
