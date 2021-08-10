@@ -18,9 +18,8 @@ int append_text_to_file(const char *filename, char *text_content)
 		for (len = 0; text_content[len];)
 			len++;
 	}
-        /*O_WRONLY = Open for write-only.*/
-        /*O_APPEND = Set the offset to EOF before each write.*/
-
+/*O_WRONLY = Open for write-only.*/
+/*O_APPEND = Set the offset to EOF before each write.*/
 	o = open(filename, O_WRONLY | O_APPEND);
 	w = write(o, text_content, len);
 
