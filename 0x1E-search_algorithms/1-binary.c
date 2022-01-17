@@ -1,15 +1,4 @@
 #include "search_algos.h"
-
-/**
- * binary_search - Searches for a value in a sorted array of integers
- *					using the Binary search algorithm
- * @array: array to be processed
- * @size: size of array
- * @value: value to be searched on array
- *
- * Return: Index of a element searched, -1 if not found
- */#include "search_algos.h"
-
 /**
  * binary_search - Searches for a value in a sorted array of integers
  *					using the Binary search algorithm
